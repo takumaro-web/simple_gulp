@@ -21,5 +21,5 @@ simple_gulp
 Output styleは、各々指定.
 
 ###autoprefixer
-随時実行させる場合は、コメントを外す.
+随時実行させる場合は、コメントを外す.  
 autoprefixerをさせたいときにbatをたたく（gulp auto）
