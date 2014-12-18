@@ -19,9 +19,7 @@ var root = "htdocs",
    "path" : {
       "htdocs"    : root,
       "sass"      : root+"/xxxx/xxxx/sass/",
-      "css"       : root+"/xxxx/xxxx/css/",
-      "coffee"    : root+"/xxxx/xxxx/coffee/",
-      "js"        : root+"/xxxx/xxxx/js/"
+      "css"       : root+"/xxxx/xxxx/css/"
    }
 };
 
