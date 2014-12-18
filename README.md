@@ -6,9 +6,10 @@ simple_gulp
 * 3.cmd:gulp/gulp auto
 
 ##機能
-*Livereload
-*sass compile
-*autoprefixer
+
+* Livereload  
+* sass compile  
+* autoprefixer  
 
 ###config
 プロジェクトパスを指定.
@@ -21,5 +22,4 @@ Output styleは、各々指定.
 
 ###autoprefixer
 随時実行させる場合は、コメントを外す.
-autoprefixerをさせたいときにbatをたたく
-┗cmd：gulp auto
+autoprefixerをさせたいときにbatをたたく（gulp auto）
