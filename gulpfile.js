@@ -43,8 +43,8 @@ gulp.task("sass", function() {
   .pipe(sass({
     style: 'expanded', //Output style. Can be nested, compact, compressed, expanded.
     sourcemap: false,
-    noCache: true,
-    sourcemapPath: './'
+    sourcemapPath: './',
+    noCache: true
   }))
   .on('error', function (err) { console.log(err.message); })
   .pipe(gulp.dest(config.path.css));
