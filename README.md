@@ -16,6 +16,7 @@ simple_gulp
 
 ###Livereload
 ローカルホストの指定など.
+※ アドオンまたは、拡張機能が必要です.
 
 ###Sass compile
 Output styleは、各々指定.
