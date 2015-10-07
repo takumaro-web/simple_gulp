@@ -38,15 +38,12 @@ gulp.task('server', function() {
 /* ----------------------------------------------------------------------------------
 　Sass compile
 ---------------------------------------------------------------------------------- */
-gulp.task('sass', function() {
-    return sass(config.path.sass+'/',{
-      style: 'expanded', //Output style. Can be nested, compact, compressed, expanded.
-      noCache: true,
-      sourcemap: false
-    })
-    .on('error', function (err) { 
-      console.log(err.message); 
-    })
+gulp.task('sass', function () {
+  return sass(config.path.sass+'/', {
+    style: 'expanded',
+    sourcemap: false,
+  })
+    .on('error', function (err) { console.log(err.message); })
     .pipe(gulp.dest(config.path.css));
 });
 
