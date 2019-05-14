@@ -125,7 +125,7 @@ gulp.task('jsmin', function () {
 gulp.task('watch-files', function(done) {
     gulp.watch(config.path.htdocs+'/**/*.html', gulp.task('browser-reload'));
     gulp.watch(config.path.css+''+styleName+'.css', gulp.task('browser-reload'));
-    gulp.watch(config.path.sass+''+styleName+'.scss', gulp.series('sass')); //sassコンパイル後に実行
+    gulp.watch(config.path.sass+'*.scss', gulp.series('sass'));
     //gulp.watch(config.path.js+'/*.js', gulp.task('browser-reload')); //JS
     done();
 });
